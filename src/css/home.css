@@ -1,3 +1,5 @@
+h1 { position: fixed; z-index: 100; left: 25px; top: 25px; }
+h1 img { width: 110px; }
 .section { background: transparent url() center center no-repeat; background-size: 100% auto; }
 .section.home { background-image: url(../images/home/home.jpg); }
 .section.platform { background-image: url(../images/home/platform.jpg); }
@@ -7,3 +9,16 @@
 .section.outlook { background-image: url(../images/home/outlook.jpg); }
 .section.jobs { background-image: url(../images/home/jobs.jpg); }
 .section.partners { background-image: url(../images/home/partners.jpg); }
+#anchors { position: fixed; right: 20px; top: 50%; width: 12px; margin-top: -73px; }
+#anchors a { display: block; width: 8px; height: 8px; text-decoration: none; border-radius: 50%; background-color: rgba(255, 255, 255, 0.8); margin: 0 auto 10px; }
+#anchors a.active { background: transparent; border: 2px solid #ff6f00; width: 10px; height: 10px; }
+.section.home .content { width: 320px; margin: 0 auto; padding-top: 280px; }
+.section.home .content h3 { font-size: 38px; color: #000; margin-bottom: 5px;}
+.section.home .content h2 { font-size: 54px; color: #000; margin-bottom: 15px; }
+.section.home .banner { background: #000; color: #fff; display: inline-block; line-height: 22px; padding: 0 5px; letter-spacing: 2px; }
+.section.home .download { margin-top: 40px; }
+.section.home .download .figure { text-align: center; float: left; width: 120px; }
+.section.home .download .figure img { display: block; width: 120px; margin-bottom: 5px; }
+.section.home .buttons { margin-left: 140px; padding-top: 30px; }
+.section.home .buttons  a { display: inline-block; margin-bottom: 10px; }
+.section.home .buttons  a img { width: 120px; }
